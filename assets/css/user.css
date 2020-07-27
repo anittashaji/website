@@ -1,0 +1,46 @@
+
+.cover-photo{
+    object-fit: cover;
+    background: url(../images/img14.jpg) no-repeat;
+    height: 130px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 90px 20px 0 ;
+    border: 1px solid #1f1a32;
+    padding: 7px;
+    background: #292343;
+  }
+  .profile-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 0 120px;
+  }
+  .about{
+      padding: 5px;
+    margin-top: 30px;
+    line-height: 21px;
+  }
+
+  .msg-btn1, .follow-btn1{
+    background: #d0d0dd;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-right: 30px;
+    font-family: sans-serif;
+  }
+  .container1 i{
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .container1 i:hover{
+    color: #03bfbc;
+  }

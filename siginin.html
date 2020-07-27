@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sign In</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/signin.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="background">
+            <div class="login-box">
+                <div class="form-box">
+                    <div class="button-box text-center">
+                        <div id="btn"></div>
+                        <button type="button"  class="toggle-btn" onclick="login()">SIGN IN</button>
+                        <button type="button" class="toggle-btn" onclick="signin()">LOG IN</button>
+                    </div>
+                    <form id="signin" class="input-group">
+                        <input type="text" class="input-field" placeholder="Name" required>
+                        <input type="email" class="input-field" placeholder="Email" required>
+                        <input type="password" class="input-field" placeholder="Password" required>
+                        <input type="password" class="input-field" placeholder="Confirm Password" required>
+                        <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                        <button type="submit" class="submit-btn">Sign In</button>
+                    </form>
+                    <form id="login" class="input-grp">
+                        <input type="text" class="input-field" placeholder="Username" required>
+                        <input type="password" class="input-field" placeholder="Password" required>
+                        <input type="checkbox" class="check-box"><span>Remember Password
+                        <a href="forget Password">Forget Password?</a></span>
+                        <button type="submit" class="submit-btn" id="login"></a> Log In</button>
+                    </form>
+                </div>
+                <script>
+                    var x=document.getElementById("signin");
+                    var y=document.getElementById("login");
+                    var z=document.getElementById("btn");
+                    function signin(){
+                        x.style.left="-400px";
+                        y.style.left="50px";
+                        z.style.left="100px";
+                    }
+                    function login(){
+                        x.style.left="50px";
+                        y.style.left="450px";
+                        z.style.left="7px";
+                    }
+                </script>
+            </div>
+        </div>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="" async defer></script>
+    </body>
+</html>
